@@ -1,0 +1,27 @@
+{
+  "name": "inclass-assignment7-hansenyao",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/bbW-_snd) # In class 7",
+  "main": "index.js",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CPSC-1520/inclass-assignment7-Hansenyao.git"
+  },
+  "author": "Youfang Yao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CPSC-1520/inclass-assignment7-Hansenyao/issues"
+  },
+  "homepage": "https://github.com/CPSC-1520/inclass-assignment7-Hansenyao#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "parcel": "^2.13.2",
+    "save-dev": "^0.0.1-security",
+    "validator": "^13.12.0"
+  }
+}

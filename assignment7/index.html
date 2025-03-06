@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  
+  <meta charset="utf-8">
+  <title>Welcome to JavaScript</title>
+  
+   <!-- Link to Bootstrap 5 -->
+
+  
+  <!-- Link your JS File below here via a script tag -->
+   <script type="module" src="js/main.js" defer></script>
+</head>
+  
+<body class=" bg-light">
+  <header data-bs-theme="dark">
+    <div class="collapse text-bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4>About</h4>
+            <p class="text-body-secondary">Our app to learn javascript.</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4>Contact</h4>
+            <ul class="list-unstyled">
+              <!-- <li><a href="https://en.wikipedia.org/wiki/English_Carrier_pigeon" class="text-white">We only use Carrier Pigeon</a></li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-braces-asterisk" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C2.25 2 1.49 2.759 1.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6ZM14.886 7.9v.164c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456v-1.3c-1.114 0-1.49-.362-1.49-1.456V4.352C14.51 2.759 13.75 2 12.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6ZM7.5 11.5V9.207l-1.621 1.621-.707-.707L6.792 8.5H4.5v-1h2.293L5.172 5.879l.707-.707L7.5 6.792V4.5h1v2.293l1.621-1.621.707.707L9.208 7.5H11.5v1H9.207l1.621 1.621-.707.707L8.5 9.208V11.5h-1Z"/>
+          </svg>
+          <strong class="px-1">Introduction to JavaScript</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main class="main-content container-sm">
+    <form class="form-signin">
+      <h1 class="h3 mb-3 font-weight-normal">Sign up!</h1>
+      <div class="email-field">
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input
+          type="text"
+          name="username"
+          id="inputEmail"
+          class="form-control"
+          autofocus
+        >
+        <div class="invalid-feedback" id="email-invalid-feedback">
+          Please enter a valid username
+        </div>
+      </div>
+      <div class="password-field-1">
+        <label for="inputPasswordOne" class="sr-only">Password</label>
+        <input
+          name="password-one"
+          type="password"
+          id="inputPasswordOne"
+          class="form-control"
+        >
+        <div class="invalid-feedback" id="password-one-invalid-feedback">
+          Please enter a strong password: <br />
+          <ul>
+            <li>Minimum Length: 8</li>
+            <li>Minimum Lowercase: 1</li>
+            <li>Minimum Uppercase: 1</li>
+            <li>Minimum Numbers: 1</li>
+            <li>Minimum Symbols: 1</li>
+          </ul>
+        </div>
+      </div>
+      <div class="password-field-2">
+        <label for="inputPasswordTwo" class="sr-only">Please retype Password</label>
+        <input
+          name="password-two"
+          type="password"
+          id="inputPasswordTwo"
+          class="form-control"
+        >
+        <div class="invalid-feedback" id="password-two-invalid-feedback">
+          sorry the passwords do not match
+        </div>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    </form>
+
+    <div class="welcome-user d-none">
+      <h1 id="welcome-user-message" class="h3 mb-3 font-weight-normal">Welcome</h1>
+      
+    </div>
+  </main>
+
+</body>
+</html>
